@@ -45,8 +45,8 @@ include(CheckFunctionExists)
 include(CMakeDependentOption)
 include(AddMADLibrary)
 include(AddMADExecutable)
-include(AddUnittests)
-include(AddScriptedTests)
+# include(AddUnittests) #nico
+# include(AddScriptedTests) #nico
 include(CMakePackageConfigHelpers)
 include(CopyTargetProperties)
 include(FeatureSummary)
